@@ -1,11 +1,11 @@
-languageCode = "cn"
-languageName = "简体中文"
-displayName = "CN"
-isoCode = "zh"
+languageCode = "en"
+languageName = "English"
+displayName = "EN"
+isoCode = "en"
 weight = 1
 rtl = false
 
-title = "和 Moonfair 一起摸大鱼"
+title = "Moonfair's Blog"
 # logo = "img/logo.png"
 # description = "My awesome website"
 # copyright = "Copy, _right?_ :thinking_face:"

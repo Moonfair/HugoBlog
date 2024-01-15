@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://blog.moonfair.cn/sitemap.xml
