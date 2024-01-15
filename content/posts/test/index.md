@@ -12,7 +12,7 @@ first
 ### firstfirst
 
 ## Second
-second
+{{ < icon "bilibili" > }}
 
 ## Third
 third

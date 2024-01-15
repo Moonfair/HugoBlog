@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.ed1b5f85de080f08a262c396ee299844e9f903d34471a7024b4cd63394c1496057aa4be518005e2c2d61df6deb5a7e39535e7841008140f247320a097a4458d0.css"
-    integrity="sha512-7Rtfhd4IDwiiYsOW7imYROn5A9NEcacCS0zWM5TBSWBXqkvlGABeLC1h323rWn45U154QQCBQPJHMgoJekRY0A==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.9cd2fa9785c934faa2d166ae9a0f847e72965a42b692bd850b069486f93f5289bc0c4992f7c1d1cf6de32e1c11825aa8bed1569ae62f061ea2bfe13491e23b40.css"
+    integrity="sha512-nNL6l4XJNPqi0Waumg&#43;EfnKWWkK2kr2FCwaUhvk/Uom8DEmS98HRz23jLhwRglqovtFWmuYvBh6iv&#43;E0keI7QA==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.a75d508cf75a202afc48fe649516720f8036bda3657897f6cc07dab21f94fa9c3933edbbfc2936f8d3a426f45ac6153237a48aec9115147c5e03db1c5b62b8bc.js"
@@ -70,7 +70,19 @@
   
   
   
+  <link href="mailto:hello@your_domain.com" rel="me" />
+  
+  
+  <link href="https://link-to-some-website.com/" rel="me" />
+  
+  
+  <link href="https://www.amazon.com/hz/wishlist/ls/wishlist-id" rel="me" />
+  
+  
   <link href="https://github.com/moonfair" rel="me" />
+  
+  
+  <link href="https://b23.tv/HR3igez" rel="me" />
   
   
   
@@ -115,6 +127,29 @@ if (!doNotTrack) {
   
   
   <meta name="theme-color"/>
+  
+  
+  
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyAanCE1Hn2T38yhUzC7Qw-6uzaOhSuQVM4",
+      authDomain: "AIzaSyAanCE1Hn2T38yhUzC7Qw-6uzaOhSuQVM4",
+      projectId: "moonfair-blog",
+      storageBucket: "moonfair-blog.appspot.com",
+      messagingSenderId: "889575865838",
+      appId: "1:889575865838:web:32f22099191a057ddce2ff",
+      measurementId: "G-GT2QRQKE4K"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
   
   
 </head>

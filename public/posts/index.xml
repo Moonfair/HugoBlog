@@ -23,7 +23,7 @@
       
       <guid>https://blog.moonfair.cn/posts/test/</guid>
       <description>First # first
-firstfirst # Second # second
+firstfirst # Second # {{ &amp;lt; icon &amp;ldquo;bilibili&amp;rdquo; &amp;gt; }}
 Third # third</description>
     </item>
     

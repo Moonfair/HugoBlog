@@ -24,7 +24,7 @@
       
       <guid>https://blog.moonfair.cn/posts/test/</guid>
       <description>First # first
-firstfirst # Second # second
+firstfirst # Second # {{ &amp;lt; icon &amp;ldquo;bilibili&amp;rdquo; &amp;gt; }}
 Third # third</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.moonfair.cn/posts/test/featuretest.png" />
     </item>
