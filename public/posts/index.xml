@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>和 Moonfair 一起摸大鱼</title>
-    <link>https://blog.moonfair.cn/</link>
-    <description>Recent content on 和 Moonfair 一起摸大鱼</description>
+    <title>Posts on 和 Moonfair 一起摸大鱼</title>
+    <link>https://blog.moonfair.cn/posts/</link>
+    <description>Recent content in Posts on 和 Moonfair 一起摸大鱼</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
-    <lastBuildDate>Mon, 15 Jan 2024 18:43:52 +0800</lastBuildDate><atom:link href="https://blog.moonfair.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Jan 2024 18:43:52 +0800</lastBuildDate><atom:link href="https://blog.moonfair.cn/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test3</title>
       <link>https://blog.moonfair.cn/posts/test3/</link>
@@ -14,7 +14,6 @@
       
       <guid>https://blog.moonfair.cn/posts/test3/</guid>
       <description></description>
-      
     </item>
     
     <item>
@@ -26,7 +25,6 @@
       <description>First # first
 firstfirst # Second # second
 Third # third</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.moonfair.cn/posts/test/featuretest.png" />
     </item>
     
     <item>
@@ -76,7 +74,6 @@ From: 理查德·汉明《你和你的研究》
 当你觉得你想干什么的远见，正好在你的能力范围内，你就应努力获取它。如果有一天你的远见大大超过了你的能力时，你就应该去做管理工作。而且，远见越大，你就应做越大的管理。如果你拥有一个关于整个实验室应该向何处去，或者有关整个贝尔系统，你就得到该去的位子让它实现。你从底层是无法轻易让它实现的。
 这取决于你的目标和对目标的渴望。我选择回避管理工作因为我更希望做我容易应付的事。但这是我的选择，只对我起作用。每个人有权做出自己的选择，保持一个开放的心态。但别试着两样都占。
 （完）</description>
-      
     </item>
     
     <item>
@@ -86,7 +83,6 @@ From: 理查德·汉明《你和你的研究》
       
       <guid>https://blog.moonfair.cn/posts/my-first-post/</guid>
       <description>hello-hugo # hello-hugo</description>
-      
     </item>
     
   </channel>

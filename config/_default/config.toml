@@ -10,12 +10,12 @@ defaultContentLanguage = "cn"
 
 enableRobotsTXT = true
 paginate = 10
-summaryLength = 0
+summaryLength = 100
 
 buildDrafts = false
 buildFuture = false
 
-# googleAnalytics = "G-XXXXXXXXX"
+googleAnalytics = "G-LRCQDFFCBX"
 
 [imaging]
   anchor = 'Center'
@@ -23,7 +23,6 @@ buildFuture = false
 [taxonomies]
   tag = "tags"
   category = "categories"
-  author = "authors"
   series = "series"
 
 [sitemap]
