@@ -5,6 +5,8 @@
     <link>https://blog.moonfair.cn/categories/</link>
     <description>Recent content in Categories on 和 Moonfair 一起摸大鱼</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>cn</language><atom:link href="https://blog.moonfair.cn/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <copyright>© 2024 Moonfair</copyright>
+    <atom:link href="https://blog.moonfair.cn/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,69 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    
-      <url>
-            <loc>https://blog.moonfair.cn/posts/</loc>
-            <lastmod>2024-01-15T18:43:52+08:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://blog.moonfair.cn/posts/test3/</loc>
-            <lastmod>2024-01-15T18:43:52+08:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://blog.moonfair.cn/</loc>
-            <lastmod>2024-01-15T18:43:52+08:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://blog.moonfair.cn/posts/test/</loc>
-            <lastmod>2024-01-15T18:41:13+08:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://blog.moonfair.cn/posts/you_and_your_research/</loc>
-            <lastmod>2023-04-21T11:34:52+08:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://blog.moonfair.cn/posts/my-first-post/</loc>
-            <lastmod>2023-04-13T11:52:04+08:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-  
-    
-  
+
+  <url>
+    <loc>https://blog.moonfair.cn/posts/</loc>
+    <lastmod>2024-01-15T18:43:52+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.moonfair.cn/posts/test3/</loc>
+    <lastmod>2024-01-15T18:43:52+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.moonfair.cn/</loc>
+    <lastmod>2024-01-15T18:43:52+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.moonfair.cn/posts/test/</loc>
+    <lastmod>2024-01-15T18:41:13+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.moonfair.cn/posts/you_and_your_research/</loc>
+    <lastmod>2023-04-21T11:34:52+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.moonfair.cn/posts/my-first-post/</loc>
+    <lastmod>2023-04-13T11:52:04+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
