@@ -9,7 +9,7 @@ colorScheme = "princess"
 defaultAppearance = "dark" # valid options: light or dark
 autoSwitchAppearance = true
 
-enableSearch = false
+enableSearch = true
 enableCodeCopy = false
 
 # mainSections = ["section1", "section2"]
@@ -19,9 +19,9 @@ disableImageOptimization = false
 
 # defaultBackgroundImage = "IMAGE.jpg" # used as default for background images 
 
-# highlightCurrentMenuArea = true
-# smartTOC = true
-# smartTOCHideUnfocusedChildren = true
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = true
 
 [header]
   layout = "fixed-fill" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
@@ -69,7 +69,7 @@ disableImageOptimization = false
   showAuthorsBadges = false
   showWordCount = true
   showSummary = true
-  showComments = true
+  showComments = false
   # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
 
 [list]

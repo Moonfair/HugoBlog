@@ -1,4 +1,3 @@
-languageCode = "cn"
 languageName = "简体中文"
 displayName = "CN"
 isoCode = "zh"
@@ -10,7 +9,7 @@ title = "和 Moonfair 一起摸大鱼"
 # description = "My awesome website"
 # copyright = "Copy, _right?_ :thinking_face:"
 
-dateFormat = "Jan 2 2006"
+dateFormat = "2006-01-02"
 
 [author]
   name = "Moonfair"
