@@ -7,7 +7,7 @@ rtl = false
 title = "和 Moonfair 一起摸大鱼"
 logo = "img/logo.png"
 # description = "My awesome website"
-# copyright = "Copy, _right?_ :thinking_face:"
+copyright = "CC BY-SA 4.0 "
 
 dateFormat = "2006-01-02"
 
