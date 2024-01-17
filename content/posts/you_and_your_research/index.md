@@ -1,13 +1,11 @@
 ---
-title: "You_and_your_research"
+title: "你和你的研究（精简版）"
 date: 2023-04-21T11:34:52+08:00
 draft: false
 tags:
-    - 文摘
+    - 转载
+    - 其他
 ---
-
-# 你和你的研究（精简版）
-
 > You and Your Research
 > 作者：理查德·汉明（Richard Hamming）
 > 译者：未知

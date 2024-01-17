@@ -5,7 +5,7 @@ weight = 1
 rtl = false
 
 title = "和 Moonfair 一起摸大鱼"
-# logo = "img/logo.png"
+logo = "img/logo.png"
 # description = "My awesome website"
 # copyright = "Copy, _right?_ :thinking_face:"
 
@@ -17,9 +17,9 @@ dateFormat = "2006-01-02"
   # headline = "There's someone in my head, but it not me"
   # bio = ""
   links = [
-    { email = "mailto:hello@your_domain.com" },
-    { link = "https://link-to-some-website.com/" },
-    { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    # { email = "mailto:hello@your_domain.com" },
+    # { link = "https://link-to-some-website.com/" },
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
 #     { blogger = "https://username.blogspot.com/" },
 #     { codepen = "https://codepen.io/username" },
