@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>CC BY-SA 4.0 </copyright>
-    <lastBuildDate>Fri, 21 Apr 2023 11:34:52 +0800</lastBuildDate><atom:link href="https://blog.moonfair.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Jan 2024 11:12:41 +0800</lastBuildDate><atom:link href="https://blog.moonfair.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>skynet源码梳理</title>
+      <link>https://blog.moonfair.cn/posts/skynet_reading/</link>
+      <pubDate>Wed, 17 Jan 2024 11:12:41 +0800</pubDate>
+      
+      <guid>https://blog.moonfair.cn/posts/skynet_reading/</guid>
+      <description>skynet_main.c # skynet 的程序入口skynet_main.c 中. skynet_globalinit() # skynet_globalinit() 方法进行了当前节点的初始化, 节点的内存结构如下: struct skynet_node { ATOM_INT total; //Todo: 不知道干啥的 int init; //初始化是否已完成(猜测不用bool是因为部分平台不支持?) uint32_t monitor_exit; //Todo: 不知</description>
+    </item>
+    
     <item>
       <title>你和你的研究（精简版）</title>
       <link>https://blog.moonfair.cn/posts/you_and_your_research/</link>

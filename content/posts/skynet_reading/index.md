@@ -1,7 +1,7 @@
 ---
 title: "skynet源码梳理"
 date: 2024-01-17T11:12:41+08:00
-draft: true
+draft: false
 tags: 
     - 游戏服务器
     - c
@@ -46,6 +46,7 @@ struct skynet_node {
 
 ## 配置加载
 使用 lua 代码加载启动参数中指定的配置文件, 并将信息写入提前声明的 c 结构 `config` 中.
+> skynet 的配置结构请参考: https://github.com/cloudwu/skynet/wiki/Config
 
 ### 扩展阅读 - lua
 > `luaL_newstate()` 创建一个新的 lua 虚拟机环境.
@@ -82,3 +83,9 @@ struct skynet_node {
 > 这里 `lua_next` 的作用是从虚拟机栈顶部弹出一个元素, 然后把索引指向的表中的一个键值对弹出, 并分别压入虚拟机栈顶部(先压入键后压入值), 如果目标表已无任何元素, 则返回 `0`.
 
 ## skynet_start()
+初始化日志
+- 注册SIGHUP信号
+初始化为守护线程
+- 启动守护线程
+- 记录pid
+- 重定向标准输入输出到空文件(/dev/null)
