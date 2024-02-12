@@ -3,9 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
+  
+    
       <url>
             <loc>https://blog.moonfair.cn/posts/</loc>
-            <lastmod>2023-04-21T11:34:52+08:00</lastmod>
+            <lastmod>2024-01-17T11:12:41+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://blog.moonfair.cn/posts/skynet_reading/</loc>
+            <lastmod>2024-01-17T11:12:41+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -16,10 +31,12 @@
     
       <url>
             <loc>https://blog.moonfair.cn/</loc>
-            <lastmod>2023-04-21T11:34:52+08:00</lastmod>
+            <lastmod>2024-01-17T11:12:41+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
+    
+  
     
   
     
@@ -29,8 +46,6 @@
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
-    
-  
     
   
     
