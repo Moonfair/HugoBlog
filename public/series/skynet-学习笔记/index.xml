@@ -15,6 +15,7 @@
       
       <guid>https://blog.moonfair.cn/posts/skynet_reading/</guid>
       <description>skynet_main.c # skynet 的程序入口skynet_main.c 中. skynet_globalinit() # skynet_globalinit() 方法进行了当前节点的初始化, 节点的内存结构如下: struct skynet_node { ATOM_INT total; //Todo: 不知道干啥的 int init; //初始化是否已完成(猜测不用bool是因为部分平台不支持?) uint32_t monitor_exit; //Todo: 不知</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.moonfair.cn/posts/skynet_reading/feature.png" />
     </item>
     
   </channel>
