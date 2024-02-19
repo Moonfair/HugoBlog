@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="zh" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
   data-auto-appearance="true"><head>
@@ -28,15 +26,12 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.ed1b5f85de080f08a262c396ee299844e9f903d34471a7024b4cd63394c1496057aa4be518005e2c2d61df6deb5a7e39535e7841008140f247320a097a4458d0.css"
-    integrity="sha512-7Rtfhd4IDwiiYsOW7imYROn5A9NEcacCS0zWM5TBSWBXqkvlGABeLC1h323rWn45U154QQCBQPJHMgoJekRY0A==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.b0d4aeb65335611c810957fcff4af94f45bb796b37facd9be6f7287ee03ce57038918ff5d4ac7a6ea77914fde6d3942c0243d3d17f90926c454b4ea3499e973a.css"
+    integrity="sha512-sNSutlM1YRyBCVf8/0r5T0W7eWs3&#43;s2b5vcofuA85XA4kY/11Kx6bqd5FP3m05QsAkPT0X&#43;QkmxFS06jSZ6XOg==" />
   
   
-  <script type="text/javascript" src="/js/appearance.min.a75d508cf75a202afc48fe649516720f8036bda3657897f6cc07dab21f94fa9c3933edbbfc2936f8d3a426f45ac6153237a48aec9115147c5e03db1c5b62b8bc.js"
-    integrity="sha512-p11QjPdaICr8SP5klRZyD4A2vaNleJf2zAfash&#43;U&#43;pw5M&#43;27/Ck2&#43;NOkJvRaxhUyN6SK7JEVFHxeA9scW2K4vA=="></script>
-  
-  
-  
+  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
   
   
   
@@ -46,10 +41,15 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.3ddcf04f5b0d4c32f72e726d3c12eebccd8c3c9f9daa9a13414808895de0ae1e1cdddda6849680d5bd96dbb60d0b1e0b24c29f5c83e5631e55e7e6bc02015490.js"
-    integrity="sha512-PdzwT1sNTDL3LnJtPBLuvM2MPJ&#43;dqpoTQUgIiV3grh4c3d2mhJaA1b2W27YNCx4LJMKfXIPlYx5V5&#43;a8AgFUkA==" data-copy="" data-copied=""></script>
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.6c7ae15a14b4f78dc4f6e7f92e5a4e05d69a1eafe594e439255e5f72defe4531e8fda36f83cf9730e27868220649112476686eec9d28c582deaabe019c419dbd.js"
+    integrity="sha512-bHrhWhS0943E9uf5LlpOBdaaHq/llOQ5JV5fct7&#43;RTHo/aNvg8&#43;XMOJ4aCIGSREkdmhu7J0oxYLeqr4BnEGdvQ==" data-copy="" data-copied=""></script>
+  
   
   <script src="/js/zoom.min.js"></script>
+  
   
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -102,7 +102,7 @@
     "keywords": ["游戏服务器","c"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "910"
+    "wordCount": "998"
   }]
   </script>
 
@@ -143,20 +143,15 @@
 
   
   
-  
-  
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LRCQDFFCBX"></script>
 <script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-LRCQDFFCBX', { 'anonymize_ip': false });
-}
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LRCQDFFCBX');
 </script>
-
-
 
   
   
@@ -208,11 +203,12 @@ if (!doNotTrack) {
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
+            
             <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">和 Moonfair 一起摸大鱼</a>
-
+            
 
         </nav>
-        <nav class="hidden md:flex items-center space-x-5 md:ml-12">
+        <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
 
             
             
@@ -242,7 +238,7 @@ if (!doNotTrack) {
 
 
             
-            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400 h-12"
                 title="">
                 
 
@@ -290,6 +286,7 @@ if (!doNotTrack) {
 
         <label id="menu-button" for="menu-controller" class="block">
             <input type="checkbox" id="menu-controller" class="hidden" />
+            
             <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
                 
 
@@ -301,7 +298,7 @@ if (!doNotTrack) {
 
             </div>
             <div id="menu-wrapper" style="padding-top:5px;"
-                class="fixed inset-0 z-30 invisible w-screen h-screen m-auto overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
                 <ul
                     class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
 
@@ -317,7 +314,6 @@ if (!doNotTrack) {
 </span>
                     </li>
 
-                    
                     
 
                     
@@ -347,9 +343,9 @@ if (!doNotTrack) {
 
 
                     
-                    
 
                 </ul>
+                
                 
 
             </div>
@@ -389,11 +385,11 @@ if (!doNotTrack) {
 
 <article>
   
-    
-     
-    
-    
-      
+  
+  
+  
+  
+  
 
 
 <div id="hero" class="h-[150px] md:h-[200px]"></div>
@@ -421,9 +417,9 @@ if (!doNotTrack) {
     });
 </script>
 
-    
   
   
+
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
@@ -436,6 +432,8 @@ if (!doNotTrack) {
 
 
 
+  
+  
 
 
 
@@ -443,6 +441,7 @@ if (!doNotTrack) {
 
 
 
+  
 
 
 
@@ -450,20 +449,19 @@ if (!doNotTrack) {
 
 
 
+  
 
 
 
+  
 
 
 
+  
 
 
 
-
-
-
-
-
+  
 
 
 
@@ -476,8 +474,9 @@ if (!doNotTrack) {
   
   <time datetime="2024-01-17 11:12:41 &#43;0800 CST">2024-01-17</time><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">2 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
     
-    <span id="views_posts/skynet_reading/index.md" title="views">0</span> 
+    <span id="views_posts/skynet_reading/index.md" 
     
+        class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span> 
     <span class="inline-block align-text-bottom">
 
   <span class="relative block icon">
@@ -488,8 +487,9 @@ if (!doNotTrack) {
 </span>
 </span><span class="px-2 text-primary-500">&middot;</span><span>
     
-    <span id="likes_posts/skynet_reading/index.md" title="likes">0</span> 
+    <span id="likes_posts/skynet_reading/index.md" 
     
+        class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="likes">loading</span> 
     <span class="inline-block align-text-bottom">
 
   <span class="relative block icon">
@@ -499,10 +499,10 @@ if (!doNotTrack) {
 
 </span>
 </span><span class="px-2 text-primary-500">&middot;</span><span>
-    <button id="likes_button"
+    <button id="button_likes"
         class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
         onclick="process_article()">
-        <span id="likes_button_heart" style="display:none" class="inline-block align-text-bottom">
+        <span id="button_likes_heart" style="display:none" class="inline-block align-text-bottom">
 
   <span class="relative block icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -510,7 +510,7 @@ if (!doNotTrack) {
   </span>
 
  </span>
-        <span id="likes_button_emtpty_heart" class="inline-block align-text-bottom">
+        <span id="button_likes_emtpty_heart" class="inline-block align-text-bottom">
 
   <span class="relative block icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -518,7 +518,7 @@ if (!doNotTrack) {
   </span>
 
 </span>
-        <span id="likes_button_text">&nbsp;Like</span>
+        <span id="button_likes_text">&nbsp;Like</span>
     </button>
 </span>
   
@@ -543,25 +543,19 @@ if (!doNotTrack) {
   
   
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/%E6%B8%B8%E6%88%8F%E6%9C%8D%E5%8A%A1%E5%99%A8/&#34;,'_self');">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     游戏服务器
   </span>
 </span>
-
   </span>
   
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/c/&#34;,'_self');">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     c
   </span>
 </span>
-
   </span>
   
   
@@ -572,12 +566,30 @@ if (!doNotTrack) {
 
 
     </div>
+
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+  
   </header>
+  
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
-     
-    <div class="order-first sm:max-w-prose lg:ml-auto px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
-      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky  lg:top-[140px] ">
-        <details open class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open class="toc-right mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
   <summary
     class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
     Table of Contents
@@ -593,6 +605,7 @@ if (!doNotTrack) {
             <li><a href="#扩展阅读---pthreadh">扩展阅读 - pthread.h</a></li>
           </ul>
         </li>
+        <li><a href="#skynet_env_init">skynet_env_init()</a></li>
         <li><a href="#sigign">sigign()</a>
           <ul>
             <li><a href="#扩展阅读---signalh">扩展阅读 - signal.h</a></li>
@@ -615,7 +628,7 @@ if (!doNotTrack) {
 </nav>
   </div>
 </details>
-<details class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
   <summary
     class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
     Table of Contents
@@ -631,6 +644,7 @@ if (!doNotTrack) {
             <li><a href="#扩展阅读---pthreadh">扩展阅读 - pthread.h</a></li>
           </ul>
         </li>
+        <li><a href="#skynet_env_init">skynet_env_init()</a></li>
         <li><a href="#sigign">sigign()</a>
           <ul>
             <li><a href="#扩展阅读---signalh">扩展阅读 - signal.h</a></li>
@@ -695,16 +709,17 @@ if (!doNotTrack) {
     }
   })();
 </script>
-
-      </div>
+   </div>
       </div>
       
-      <div class="min-w-0 min-h-0 max-w-prose">
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
         
 <details style="margin-left:0px" class="mt-2 mb-5 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5" >
     <summary
         class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
-        skynet 学习笔记 - This article is part of a series.
+        skynet 学习笔记 - 这篇文章属于一个选集。
     </summary>
     
     
@@ -712,7 +727,7 @@ if (!doNotTrack) {
     
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        Part : This Article
+        § : 本文
     </div>
     
     
@@ -720,21 +735,27 @@ if (!doNotTrack) {
 </details>
 
 
-        <div id="skynet_mainc" class="anchor"></div>
-<h1 class="relative group">skynet_main.c 
+
+        <div class="article-content max-w-prose mb-20">
+          <h1 class="relative group">skynet_main.c 
+    <div id="skynet_mainc" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#skynet_mainc" aria-label="锚点">#</a></span>        
+            style="text-decoration-line: none !important;" href="#skynet_mainc" aria-label="锚点">#</a>
+    </span>        
     
 </h1>
 <p>skynet 的程序入口<code>skynet_main.c</code> 中.</p>
-<div id="skynet_globalinit" class="anchor"></div>
 <h2 class="relative group">skynet_globalinit() 
+    <div id="skynet_globalinit" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#skynet_globalinit" aria-label="锚点">#</a></span>        
+            style="text-decoration-line: none !important;" href="#skynet_globalinit" aria-label="锚点">#</a>
+    </span>        
     
 </h2>
 <p><code>skynet_globalinit()</code> 方法进行了当前节点的初始化, 节点的内存结构如下:</p>
@@ -745,16 +766,20 @@ if (!doNotTrack) {
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="kt">pthread_key_t</span> <span class="n">handle_key</span><span class="p">;</span> <span class="c1">//threadLocal 记录本线程类型的 key
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="kt">bool</span> <span class="n">profile</span><span class="p">;</span>	<span class="c1">// default is on
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">};</span>
-</span></span></code></pre></div><div id="扩展阅读---pthreadh" class="anchor"></div>
-<h3 class="relative group">扩展阅读 - pthread.h 
+</span></span></code></pre></div><h3 class="relative group">扩展阅读 - pthread.h 
+    <div id="扩展阅读---pthreadh" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%e6%89%a9%e5%b1%95%e9%98%85%e8%af%bb---pthreadh" aria-label="锚点">#</a></span>        
+            style="text-decoration-line: none !important;" href="#%e6%89%a9%e5%b1%95%e9%98%85%e8%af%bb---pthreadh" aria-label="锚点">#</a>
+    </span>        
     
 </h3>
 <blockquote>
+</blockquote>
 <p>其中 <code>pthread_key_t</code> 来自 linux 的 <code>pthread</code> 库, 该库提供了常见的线程操作. 这里用到了类似 &gt; ThreadLocal 的线程内变量的功能(在不同线程中名称相同, 但内容各自独立的变量):</p>
+<blockquote>
 <ul>
 <li><code>pthread_key_create()</code> 创建一个绑定于当前线程的全局变量
 <ul>
@@ -781,32 +806,54 @@ if (!doNotTrack) {
 </li>
 </ul>
 </blockquote>
-<div id="sigign" class="anchor"></div>
-<h2 class="relative group">sigign() 
+<h2 class="relative group">skynet_env_init() 
+    <div id="skynet_env_init" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#sigign" aria-label="锚点">#</a></span>        
+            style="text-decoration-line: none !important;" href="#skynet_env_init" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<p><code>skynet_env_init()</code> 方法设置了当前 skynet 服务的环境, 该环境结构如下:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="k">struct</span> <span class="n">skynet_env</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">struct</span> <span class="n">spinlock</span> <span class="n">lock</span><span class="p">;</span> <span class="c1">//自旋锁
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="n">lua_State</span> <span class="o">*</span><span class="n">L</span><span class="p">;</span> <span class="c1">//lua虚拟机
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">};</span>
+</span></span></code></pre></div><p>在进行环境初始化时, 首先为该结构分配了内存空间, 然后创建了新的 lua 虚拟机作为 L 的值.</p>
+<h2 class="relative group">sigign() 
+    <div id="sigign" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#sigign" aria-label="锚点">#</a>
+    </span>        
     
 </h2>
 <p><code>sigign()</code> 方法生成了一个用于忽略某信号的 <code>sigaction</code>, 并将其绑定到管道信号 <code>SIGPIPE</code> 上.</p>
-<div id="扩展阅读---signalh" class="anchor"></div>
 <h3 class="relative group">扩展阅读 - signal.h 
+    <div id="扩展阅读---signalh" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%e6%89%a9%e5%b1%95%e9%98%85%e8%af%bb---signalh" aria-label="锚点">#</a></span>        
+            style="text-decoration-line: none !important;" href="#%e6%89%a9%e5%b1%95%e9%98%85%e8%af%bb---signalh" aria-label="锚点">#</a>
+    </span>        
     
 </h3>
 <blockquote>
 <p><code>sigaction()</code> 来自 c 标准库, 接收一个信号类型枚举和一个用以处理该信号的方法 <code>sa_handler</code>. 此处使用的 <code>SIG_IGN</code> 是标准库提供的默认处理方法之一, 用以忽略对某一信号的处理.</p>
 </blockquote>
-<div id="配置加载" class="anchor"></div>
 <h2 class="relative group">配置加载 
+    <div id="配置加载" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%e9%85%8d%e7%bd%ae%e5%8a%a0%e8%bd%bd" aria-label="锚点">#</a></span>        
+            style="text-decoration-line: none !important;" href="#%e9%85%8d%e7%bd%ae%e5%8a%a0%e8%bd%bd" aria-label="锚点">#</a>
+    </span>        
     
 </h2>
 <p>使用 lua 代码加载启动参数中指定的配置文件, 并将信息写入提前声明的 c 结构 <code>config</code> 中.</p>
@@ -814,12 +861,14 @@ if (!doNotTrack) {
 <p>skynet 的配置结构请参考: <a href="https://github.com/cloudwu/skynet/wiki/Config"   target="_blank">
     https://github.com/cloudwu/skynet/wiki/Config</a></p>
 </blockquote>
-<div id="扩展阅读---lua" class="anchor"></div>
 <h3 class="relative group">扩展阅读 - lua 
+    <div id="扩展阅读---lua" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%e6%89%a9%e5%b1%95%e9%98%85%e8%af%bb---lua" aria-label="锚点">#</a></span>        
+            style="text-decoration-line: none !important;" href="#%e6%89%a9%e5%b1%95%e9%98%85%e8%af%bb---lua" aria-label="锚点">#</a>
+    </span>        
     
 </h3>
 <blockquote>
@@ -829,21 +878,25 @@ if (!doNotTrack) {
 <code>lua_pushstring()</code> 将一段字符串压入栈顶, 此处是上述代码段中要使用的参数.
 <code>lua_pcall()</code> 调用之前压入的 lua 代码段</p>
 </blockquote>
-<div id="_init_env" class="anchor"></div>
 <h2 class="relative group">_init_env() 
+    <div id="_init_env" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#_init_env" aria-label="锚点">#</a></span>        
+            style="text-decoration-line: none !important;" href="#_init_env" aria-label="锚点">#</a>
+    </span>        
     
 </h2>
 <p>加载配置到 lua 虚拟机后, 用该虚拟机进行 skynet 环境的初始化. 如前文所说, skynet 环境的主体也是一个 lua 虚拟机, 这里做的工作本质上其实是将配置文件中的键值对作为全局变量, 加载到这个 lua 虚拟机中.</p>
-<div id="扩展阅读---lua-1" class="anchor"></div>
 <h3 class="relative group">扩展阅读 - lua 
+    <div id="扩展阅读---lua-1" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%e6%89%a9%e5%b1%95%e9%98%85%e8%af%bb---lua-1" aria-label="锚点">#</a></span>        
+            style="text-decoration-line: none !important;" href="#%e6%89%a9%e5%b1%95%e9%98%85%e8%af%bb---lua-1" aria-label="锚点">#</a>
+    </span>        
     
 </h3>
 <blockquote>
@@ -864,12 +917,14 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl"><span class="nf">lua_pop</span><span class="p">(</span><span class="n">L</span><span class="p">,</span><span class="mi">1</span><span class="p">);</span>
 </span></span></code></pre></div><p>这里 <code>lua_next</code> 的作用是从虚拟机栈顶部弹出一个元素, 然后把索引指向的表中的一个键值对弹出, 并分别压入虚拟机栈顶部(先压入键后压入值), 如果目标表已无任何元素, 则返回 <code>0</code>.</p>
 </blockquote>
-<div id="skynet_start" class="anchor"></div>
 <h2 class="relative group">skynet_start() 
+    <div id="skynet_start" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#skynet_start" aria-label="锚点">#</a></span>        
+            style="text-decoration-line: none !important;" href="#skynet_start" aria-label="锚点">#</a>
+    </span>        
     
 </h2>
 <p>初始化日志</p>
@@ -881,12 +936,13 @@ if (!doNotTrack) {
 <li>重定向标准输入输出到空文件(/dev/null)</li>
 </ul>
 
-        </br></br>
+        </div>
+                
         
 <details style="margin-left:0px" class="mt-2 mb-5 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5">
     <summary
         class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
-        skynet 学习笔记 - This article is part of a series.
+        skynet 学习笔记 - 这篇文章属于一个选集。
     </summary>
     
     
@@ -894,7 +950,7 @@ if (!doNotTrack) {
     
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        Part : This Article
+        § : 本文
     </div>
     
     
@@ -902,29 +958,23 @@ if (!doNotTrack) {
 </details>
 
 
+        
+
+          
       </div>
-      <script>
+     
+    
+     <script>
         var oid = "views_posts\/skynet_reading\/index.md"
         var oid_likes = "likes_posts\/skynet_reading\/index.md"
       </script>
       
       
-      <script type="text/javascript" src="/js/page.min.0e49973b4ad0a382c7c6012d8bff8226316642daabc4f8a20477bd08674f3da6e2fa993bc20ad4f51e7c5bb68e6f913a207a7c4fe37ea0e7b806894afce0a64e.js" integrity="sha512-DkmXO0rQo4LHxgEti/&#43;CJjFmQtqrxPiiBHe9CGdPPabi&#43;pk7wgrU9R58W7aOb5E6IHp8T&#43;N&#43;oOe4BolK/OCmTg=="></script>
-  </section>
+      
+      <script type="text/javascript" src="/js/page.min.5b1bad196a6075a1e11bae1dc95f24f67b610948a00525e347566c5a62338ea78f1c7224ab9a53873dcdb2a1a7d7d391b8a8ef45561297f68806c01315b0c4f6.js" integrity="sha512-WxutGWpgdaHhG64dyV8k9nthCUigBSXjR1ZsWmIzjqePHHIkq5pThz3NsqGn19ORuKjvRVYSl/aIBsATFbDE9g=="></script>
+  
+    </section>
   <footer class="pt-8 max-w-prose print:hidden">
-
-    
-
-
-    
-    
-    
-
-    
-
-    
-
-    
 
     
   
@@ -971,14 +1021,14 @@ if (!doNotTrack) {
   </footer>
 </article>
 
-      <div class="pointer-events-none absolute top-[100vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
   <a href="#the-top"
-    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
     aria-label="Scroll to top" title="Scroll to top">
     &uarr;
   </a>
 </div>
-    </main><footer class="py-10 print:hidden">
+    </main><footer id="site-footer" class="py-10 print:hidden">
   
   
     
@@ -1015,7 +1065,7 @@ if (!doNotTrack) {
   </script>
   
   
-  <script type="text/javascript" src="/js/process.min.2166d3adac1679c00a75161830ab5725d3efc0e3d3f8c2453fb01d0907948436c25f0f8a7ad824322fa22f3f9c85fd4d0a1d5c856f53b862157da25a57dc3d52.js" integrity="sha512-IWbTrawWecAKdRYYMKtXJdPvwOPT&#43;MJFP7AdCQeUhDbCXw&#43;KetgkMi&#43;iLz&#43;chf1NCh1chW9TuGIVfaJaV9w9Ug=="></script>
+  <script type="text/javascript" src="/js/process.min.62060bb247f4de2b6dde45903668fefb68d792f365587605177b1227c0cf43588701edaca0cb40e2c8e2789bd5ce67c1d2a215b9fb258c3496a7cd25e7cb5fdf.js" integrity="sha512-YgYLskf03itt3kWQNmj&#43;&#43;2jXkvNlWHYFF3sSJ8DPQ1iHAe2soMtA4sjieJvVzmfB0qIVufsljDSWp80l58tf3w=="></script>
   
   
 </footer><div

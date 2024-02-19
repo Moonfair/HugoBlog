@@ -14,6 +14,7 @@ skynet 的程序入口`skynet_main.c` 中.
 
 ## skynet_globalinit()
 `skynet_globalinit()` 方法进行了当前节点的初始化, 节点的内存结构如下:
+
 ``` c
 struct skynet_node {
 	ATOM_INT total; //Todo: 不知道干啥的
@@ -25,7 +26,8 @@ struct skynet_node {
 ```
 
 ### 扩展阅读 - pthread.h 
-> 其中 `pthread_key_t` 来自 linux 的 `pthread` 库, 该库提供了常见的线程操作. 这里用到了类似 > ThreadLocal 的线程内变量的功能(在不同线程中名称相同, 但内容各自独立的变量):
+> 
+其中 `pthread_key_t` 来自 linux 的 `pthread` 库, 该库提供了常见的线程操作. 这里用到了类似 > ThreadLocal 的线程内变量的功能(在不同线程中名称相同, 但内容各自独立的变量):
 > - `pthread_key_create()` 创建一个绑定于当前线程的全局变量
 >     - @param `pthread_key_t *` 该变量的 key
 >     - @param `void (* _Nullable)(void *)` 变量销毁时的析构函数
@@ -37,6 +39,16 @@ struct skynet_node {
 >     - @return `* _Nullable`: 该变量的 value
 > - `pthread_key_delete()` 删除该变量, 并触发其析构函数
 >     - @param `pthread_key_t`: 该变量的 key
+
+## skynet_env_init()
+`skynet_env_init()` 方法设置了当前 skynet 服务的环境, 该环境结构如下:
+```c 
+struct skynet_env {
+	struct spinlock lock; //自旋锁
+	lua_State *L; //lua虚拟机
+};
+```
+在进行环境初始化时, 首先为该结构分配了内存空间, 然后创建了新的 lua 虚拟机作为 L 的值.
 
 ## sigign()
 `sigign()` 方法生成了一个用于忽略某信号的 `sigaction`, 并将其绑定到管道信号 `SIGPIPE` 上.
