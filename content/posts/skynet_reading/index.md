@@ -1,7 +1,7 @@
 ---
 title: "skynet源码梳理"
 date: 2024-01-17T11:12:41+08:00
-draft: false
+draft: true
 tags: 
     - 游戏服务器
     - c
@@ -89,3 +89,15 @@ struct skynet_node {
 - 启动守护线程
 - 记录pid
 - 重定向标准输入输出到空文件(/dev/null)
+- 初始化harbor, 记录自己的harborId
+- 初始化handler
+  - 为 handle_storage 分配内存
+  - 为 slot 分配内存, 每个 slot 是一个 skynet_context
+- 初始化全局mq
+- 初始化c_module
+  - 只是把路径加载到内存中而已
+- 初始化 timer
+  - 新建timer结构作为全局timer
+  - 初始化当前时间
+- 初始化 socker_server
+  - 关于 kqueue https://www.cnblogs.com/luminocean/p/5631336.html
