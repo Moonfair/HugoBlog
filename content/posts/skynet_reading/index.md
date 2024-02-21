@@ -101,3 +101,43 @@ struct skynet_env {
 - 启动守护线程
 - 记录pid
 - 重定向标准输入输出到空文件(/dev/null)
+
+## skynet socket 生命周期
+skynet 的 socket 状态存储于 socket 结构的 type 字段, 是一个原子整型变量. 它代表了该 socket 当前的生命周期状态. 本节着重讲解 socket 的生命周期是如何进行流转的.
+
+```mermaid
+stateDiagram-v2
+    [*] --> SOCKET_TYPE_INVALID : init
+    SOCKET_TYPE_PACCEPT --> SOCKET_TYPE_CONNECTED : resume
+    SOCKET_TYPE_PLISTEN --> SOCKET_TYPE_LISTEN : resume
+    SOCKET_TYPE_RESERVE --> SOCKET_TYPE_BIND : bind
+    ALL --> SOCKET_TYPE_PLISTEN : listen
+    ALLexSOCKET_TYPE_HALFCLOSE_READ --> SOCKET_TYPE_HALFCLOSE_READ : close
+    SOCKET_TYPE_HALFCLOSE_READ --> SOCKET_TYPE_INVALID : close
+    ALL --> SOCKET_TYPE_CONNECTED : open
+    ALL --> SOCKET_TYPE_CONNECTING : open
+
+
+```
+
+### socket 状态解析
+- SOCKET_TYPE_INVALID
+    - socket 初始化后的状态
+- SOCKET_TYPE_RESERVE
+- SOCKET_TYPE_PLISTEN
+- SOCKET_TYPE_LISTEN
+- SOCKET_TYPE_CONNECTING
+- SOCKET_TYPE_CONNECTED
+- SOCKET_TYPE_HALFCLOSE_READ
+- SOCKET_TYPE_HALFCLOSE_WRITE
+- SOCKET_TYPE_PACCEPT
+- SOCKET_TYPE_BIND
+    - socket 绑定后的状态
+
+### socket 操作解析
+- resume
+    - 启用 socket 的读操作
+- pause
+    - 关闭 socket 的读操作
+- bind
+    - 
